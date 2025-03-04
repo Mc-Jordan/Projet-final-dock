@@ -17,7 +17,6 @@ body {
 	background-color: white;
 	width: 40%;
 	border-radius: 6px;
-	padding: 5%;
 }
 form {
 	display: flex;
@@ -41,7 +40,7 @@ input {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	border: 1px solid;
+	border: 1px solid gray;
 	border-radius: 6px;
 }
 input[type="password"] {
@@ -67,14 +66,14 @@ input[type="submit"]:hover {
 	background-color: #ffffff;
 	color: rgb(0, 0, 0);
 	transition: 0.5s ease-in-out;
-	border: 1px solid;
+	border: 1px solid gray;
 }
 
 #message {
 	background-color: white;
 	display: none;
 	flex-direction: column;
-	width: 25%;
+	width: 33%;
 	margin-top: 5px;
 	border-radius: 6px;
 	padding: 5px;
@@ -109,13 +108,9 @@ p {
 		width: 80%;
 	}
 	#message {
-		width: 60%;
+		width: 80%;
+		font-size: 15px;
 	}
 }
 
-@media screen and (max-width: 1000px) {
-	#message {
-		width: 40%;
-		text-align: center;
-	}
-}
+

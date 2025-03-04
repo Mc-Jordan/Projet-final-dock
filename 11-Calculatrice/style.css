@@ -13,7 +13,7 @@ body {
 .calculatrice {
 	height: auto;
 	padding: 10px;
-	width: 350px;
+	width: 310px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -74,7 +74,7 @@ body {
 .controls {
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 3px;
 }
 .ligne {
 	display: flex;
@@ -83,8 +83,8 @@ body {
 }
 .control {
 	background-color: rgb(61, 58, 58);
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

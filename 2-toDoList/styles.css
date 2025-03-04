@@ -32,7 +32,7 @@ body {
 	border-radius: 6px 6px 6px 6px;
 }
 input {
-	width: 85%;
+	width: 84%;
 	height: 39px;
 	outline: 0;
 	border: 1px solid;
@@ -79,4 +79,17 @@ button {
 	from {
 		transform: translateY(50px);
 	}
+}
+@media screen and (max-width:720px){
+	.main {
+		width: 80%;
+	}
+	input {
+		width: 80%;
+	}
+	
+	button {
+		width: 20%;
+	}
+	
 }
