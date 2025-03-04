@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Verification de mot de passe</title>
+	</head>
+	<body>
+		<div class="container">
+			<form action="" method="post">
+				<label>Utilisateur</label>
+				<div class="username">
+					<input type="text" id="utilisateur" required/>
+				</div>
+				<label>Mot de passe</label>
+				<div class="password-option">
+					<input type="password" id="mot-de-passe" required/>
+					<div class="open-hide"><img src="close-eyes.png" alt="" /></div>
+				</div>
+				<input type="submit" value="ENVOYER" id="send"/>
+			</form>
+		</div>
+
+		<div id="message">
+			<h3>
+				Veuillez suivre les conditions suivantes pour la saisir conforme du mot
+				de passe
+			</h3>
+			<p id="lettre" class="invalid">Une lettre minuscule</p>
+			<p id="majuscule" class="invalid">Une lettre majuscule</p>
+			<p id="chiffre" class="invalid">Un chiffre</p>
+			<p id="longueur" class="invalid">8 caractères minimum</p>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

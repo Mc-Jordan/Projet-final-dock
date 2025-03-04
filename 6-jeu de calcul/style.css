@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.jeu {
+	z-index: 1;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	border-radius: 6px;
+}
+.jeu .question {
+	height: 200px;
+	text-align: center;
+	h4 {
+		font-size: 50px;
+	}
+	span {
+		color: #0072be;
+	}
+}
+.jeu .reponse input {
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+	border: none;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	outline: unset;
+}
+
+.jeu .control input,
+button {
+	border: none;
+	padding: 15px;
+	width: 250px;
+	border-radius: 6px;
+	font-size: 20px;
+	background-color: #0072be;
+	color: white;
+}
+.jeu .control input:hover,
+button:hover {
+	transform: scale(0.8);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.result {
+	display: none;
+	position: absolute;
+	padding: 20px;
+	flex-direction: column;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	border-radius: 6px;
+	span {
+		padding: 15px;
+		font-size: 40px;
+		text-align: center;
+		em {
+			color: #0072be;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	section {
+		width: 80%;
+	}
+}

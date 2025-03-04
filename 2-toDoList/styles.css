@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.container {
+	padding: 6px;
+	width: 100%;
+}
+#input-button {
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #0072be;
+	border-radius: 6px 6px 6px 6px;
+}
+input {
+	width: 85%;
+	height: 39px;
+	outline: 0;
+	border: 1px solid;
+	border-radius: 6px 0 0 6px;
+	border-color: #ffffff;
+}
+
+button {
+	font-size: 39px;
+	width: 16%;
+	outline: 0;
+	height: 45px;
+	border-radius: 0 6px 6px 0;
+	background-color: #0072be;
+	border: 0;
+	color: white;
+	cursor: pointer;
+}
+
+.paragraph-style {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 0px 15px 0px 15px;
+	background-color: #0072be;
+	border: 0;
+	color: white;
+	cursor: pointer;
+	word-break: break-all;
+	animation: anime 0.7s linear;
+}
+.paragraph-style:last-child {
+	margin-bottom: 0;
+}
+
+.paragraph-click {
+	background-color: #f31d1d;
+	text-decoration: line-through;
+}
+.paragraph-reclick {
+	background-color: #0072be;
+}
+
+@keyframes anime {
+	from {
+		transform: translateY(50px);
+	}
+}

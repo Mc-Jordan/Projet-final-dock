@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jeu de saut</title>
+	</head>
+	<body>
+		<section>
+            score: <span name="score" id="score" > </span>
+            <div class="jeu">
+                
+				<div class="perso">
+					<img id="image" src="coureur.png" alt="" />
+				</div>
+				<div class="obstacle"></div>
+
+			</div>
+		</section>
+		<div class="controls">
+			<button onclick="sauter()">SAUTER</button>
+			<button onclick="start()">START</button>
+			<button onclick="stop()">STOP</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
